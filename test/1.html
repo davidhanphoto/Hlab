@@ -1,0 +1,259 @@
+<!-- 文档的类型声明 -->
+<!DOCTYPE html>
+<!-- 表明文档开始 -->
+<html>
+	<head>
+		<!-- 网页标题设置 -->
+		<title>欢迎来到昉毅智能科技网站</title>
+		<!-- 字符编码方式 -->
+		<meta charset="utf-8">
+		<!-- 设置选项卡小图标 -->
+		<link rel="shortcut icon" href="web.ico" type="image/x-icon">
+	</head>
+	<body>
+		<!-- 网页的主题内容 -->
+
+		Hello
+		<p id='p1' align="center">延禧攻略</p>
+		<如&nbsp;&nbsp;&nbsp;懿&nbsp;&nbsp;&nbsp;传>
+		&lt;b&gt;
+		版权所有 &copy; 昉毅智能科技
+		<br>
+		价格：&yen;1000.00
+		<br>
+		这是一段有<b>加粗</b>,<i>斜体</i>,<u>下划线</u>，<s>删除线</s>,<sup>上</sup>标，<sub>下</sub>标
+
+
+		<br>
+		<a name="poem">锚点位置</a>
+		<!-- 标题标签 -->
+		
+		<h1 align="center">咏鹅</h1>
+		<h2 align="right">骆宾王</h2>
+		<h3 align="center">鹅鹅鹅</h3>
+		<h4 align="center">曲项向天歌</h4>
+		<h5 align="center">白毛浮绿水</h5>
+		<h6 align="center">红掌拨清波</h6>
+		<!-- 段落标签 -->
+		<p>我们一起学猫叫</p>
+		<P>一起喵喵喵</P>
+		<!-- 换行标签 -->
+		西湖美景三月天，
+		春雨无度柳如烟。
+
+		<h1 align="center">HTML &LT;Day01&gt;</h1>
+		<!-- 水平线 -->
+		<hr>
+		<!-- 块分区标签 -->
+		<dir>快分区元素</dir>
+		<dir>快分区元素</dir>
+		<!-- 行内分区元素 -->
+		<h1><span>红色</span>文本</h1>
+		<p>这是一段文本，包含<span>绿色</span>的文本</p>
+		<div><span>DIV</span>标签</div>
+		<!-- 列表 -->
+		<!-- 有序列表 -->
+		<ol type="a" start="3">
+			<li>Java</li>
+			<li>PHP</li>
+			<li>Python</li>
+		</ol>
+		<!-- 无序列表 -->
+		<ul type="square">
+			<li>《西游记》</li>
+			<li>《水浒传》</li>
+			<li>《三国演义》</li>
+			<li>《红楼梦》</li>
+		</ul>
+		<!-- 列表的嵌套 -->
+		<ol>
+			<li>
+				西游记
+				<ol>
+					<li>大师兄</li>
+					<li>二师兄</li>
+					<li>沙师弟</li>
+				</ol>
+			</li>
+			<li>
+				红楼梦
+				<ol>
+					<li>贾宝玉</li>
+					<li>林黛玉</li>
+					<li>薛宝钗</li>
+				</ol>
+			</li>
+
+		</ol>
+
+		<!-- 图片标签 -->
+		<!-- 绝对路径加载网络文件 -->
+		<img src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=97f030c321381f309a198aab99034c67/6a63f6246b600c338e9bdc33134c510fd8f9a16e.jpg">
+		<img src="http://pic7.nipic.com/20100429/4456231_102215055506_2.jpg" width="200" height="140" title="蝶恋花" alt="图片消失了">
+		<!-- 绝对路径加载本地文件 -->
+		<img src="‎⁨/Users/david/hlab/test/web.ico">
+		<!-- 相对路径 -->
+		<img src="web.ico">
+		<img src="img/web1.ico">
+		<!-- ../表示返回上一级目录文件夹 -->
+		<img src="../cat.jpg">
+		<br>
+		<!-- 超连接标签 -->
+		<!-- URL网络路径必须带协议 -->
+		<a href="https://www.htarp.com">Htarp</a>
+		<!-- target默认在当前窗口打开 _self 
+		_blank表示新建窗口打开-->
+		<a href="https://www.htarp.com" target="_blank">Htarp</a>
+		<!-- 跳转本地文件 -->
+		<a href="/Users/david/hlab/test/web.ico" target="_blank">logo</a>
+		<br>
+		<!-- 设置锚点 -->
+		
+		<a href="#poem">诗歌</a>
+
+
+		<!-- 创建3行*3列的表格 -->
+		<!-- table中的align属性用来设置表格在其父元素body中的水平对齐方式 -->
+		<table border="1px" width="300px" height="160px" align="center" cellpadding="5px" cellspacing="1px" bgcolor="orange">
+			<tr bgcolor="pink" align="right" valign="top">
+				<td>星期一</td>
+				<td>星期二</td>
+				<td>星期三</td>
+			</tr>
+			<tr>
+				<td bgcolor="yellow" width="70px" height="70px" align="center" valign="top">语文</td>
+				<td>数学</td>
+				<td>英语</td>
+			</tr>
+			<tr align="center" valign="bottom">
+				<td>英语</td>
+				<td>语文</td>
+				<td>数学</td>
+			</tr>
+		</table>
+
+
+		<!-- 单元格合并 -->
+		<table border="1px" width="500px" height="300px" align="center">
+			<tr>
+				<td colspan="3">姓名：</td>
+				<td colspan="3">班级：</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td rowspan="4">上午</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+			<tr>
+				
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+			<tr>
+				
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+			<tr>
+				
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+
+		<!-- 表单 -->
+		<form action="1.PHP" method="get">
+			<!-- 表单控件 -->
+			<!-- 1、文本框和密码框 -->
+			<p>
+				用户名称：
+				<input type="text" name="uname" maxlength="8" placeholder="请输入用户名">
+				<span>最大输入长度为八位</span>
+			</p>
+			<p>
+				用户密码：
+				<input type="password" name="upwd">
+			</p>
+			<!-- 单选框 -->
+			<p>
+				用户性别：
+				<input type="radio" name="gender" value="male" checked>男
+				<input type="radio" name="gender" value="female">女
+			</p>
+			<!-- 复选框 -->
+			<p>
+				用户爱好：
+				<input type="checkbox" name="hobby" value="smoke">抽烟
+				<input type="checkbox" name="hobby" value="drink">喝酒
+				<input type="checkbox" name="hobby" value="perm">烫头
+			</p>
+			<!-- 隐藏域 -->
+			<input type="hidden" name="uID" value="10010">
+			<!-- 文件选择 -->
+			<p>
+				上传文件：
+				<input type="file" name="ufile">
+			</p>
+			<!-- 下拉选择框 -->
+			<p>	选择省份
+				<select name="province">
+					<option value="hebei">河北省</option>
+					<option value="heilongjiang">黑龙江省</option>
+					<option value="hunan">湖南省</option>
+				</select>
+			</p>
+			<!-- 文本域 -->
+			<p>
+				个性签名
+				<textarea name="uInfo" cols="50" rows="10">
+					
+				</textarea>
+			</p>
+			<p>
+				<!-- 按钮 -->
+				<!-- 提交按钮 -->
+				<input type="submit" name="submit" value="注册">
+				<!-- 重置按钮 -->
+				<input type="reset" name="reset" value="取消">
+				<!-- 普通按钮 -->
+				<input type="button" name="button" value="点击">
+				<br>
+				<!-- 按钮特殊用法 -->
+				<button>按钮显示的文本</button>
+			</p>
+			<!-- 特殊用法 -->
+			<p>
+				用户性别：
+				<input type="radio" name="gender" value="male" id="male"><label for="male">男</label>
+				<input type="radio" name="gender" value="female" id="female"><label for="female">女</label>
+			</p>
+		</form>
+
+	</body>
+</html>
+
